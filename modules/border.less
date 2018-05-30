@@ -1,0 +1,53 @@
+@import (reference) "../src/vars";
+
+.border {
+  border: @border-width solid;
+}
+
+.border-top {
+  border-top: @border-width solid;
+}
+
+.border-right {
+  border-right: @border-width solid;
+}
+
+.border-bottom {
+  border-bottom: @border-width solid;
+}
+
+.border-left {
+  border-left: @border-width solid;
+}
+
+.border-none {
+  border: 0
+}
+
+.rounded {
+  border-radius: @border-radius
+}
+
+.circle {
+  border-radius: 50%
+}
+
+.rounded-top {
+  border-radius: @border-radius @border-radius 0 0
+}
+
+.rounded-right {
+  border-radius: 0 @border-radius @border-radius 0
+}
+
+.rounded-bottom {
+  border-radius: 0 0 @border-radius @border-radius
+}
+
+.rounded-left {
+  border-radius: @border-radius 0 0 @border-radius
+}
+
+.not-rounded {
+  border-radius: 0
+}

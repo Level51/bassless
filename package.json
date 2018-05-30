@@ -1,0 +1,11 @@
+{
+  "name": "bassless",
+  "version": "1.0.0",
+  "description": "less port of the basscss toolkit",
+  "author": "Daniel Kliemsch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Level51/bassless"
+  }
+}
