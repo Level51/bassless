@@ -1,0 +1,45 @@
+@import (reference) "../src/vars";
+
+.hide {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media screen and (max-width: (@breakpoint-xxs - 1)) {
+  .xxxs-hide {
+    display: none !important
+  }
+}
+
+@media screen and (max-width: (@breakpoint-xs - 1)) {
+  .xxs-hide {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: @breakpoint-xs) and (max-width: (@breakpoint-sm - 1)) {
+  .xs-hide {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: @breakpoint-sm) and (max-width: (@breakpoint-md - 1)) {
+  .sm-hide {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: @breakpoint-md) and (max-width: (@breakpoint-lg - 1)) {
+  .md-hide {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: @breakpoint-lg) {
+  .lg-hide {
+    display: none !important
+  }
+}
