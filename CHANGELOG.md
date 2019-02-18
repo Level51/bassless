@@ -1,4 +1,4 @@
-[Unreleased]
+[1.0.1] - 2019-02-18
 ### Fixed
 - Breakpoints for the xxs-hide class
 
