@@ -1,3 +1,7 @@
+[Unreleased]
+### Fixed
+- Breakpoints for the xxs-hide class
+
 [1.0.0] - 2018-05-30
 ### Added
 - Responsive flexbox addon
